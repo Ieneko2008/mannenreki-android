@@ -1,10 +1,5 @@
-# 万年暦 Android版
-
-Android StudioをPCにインストールせず、GitHub ActionsでAPKを生成するプロジェクトです。
-
-- 既存の万年暦の暦計算JavaScriptを維持し、Android WebViewに同梱します。
-- `.github/workflows/build-android.yml` がクラウドでDebug APKをビルドします。
-- ビルド成果はActionsの実行ページで `mannenreki-android-debug` としてダウンロードできます。
-- Android実機での動作は別途検証が必要です。
-
-※開発中のDebug APKです。正式配布・ストア公開用の署名済み版ではありません。
+# 万年暦 Android v2.2.0
+Android Studio不要のGitHub Actionsクラウドビルドです。
+Actions > Build Android Debug APK の成功した実行 > Artifacts > mannenreki-android-debug からデバッグAPKをダウンロードできます。
+Android実機での検証はまだ完了していません。公開前にはテストと署名済みリリースビルドが必要です。
+暦計算JavaScriptは元の万年暦から引き継いでいます。
