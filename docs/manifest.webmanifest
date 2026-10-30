@@ -1,0 +1,26 @@
+{
+  "name": "万年暦 — 日本の暦",
+  "short_name": "万年暦",
+  "description": "六曜・干支・九星・二十四節気・月齢と方位盤の万年暦",
+  "lang": "ja",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7f7",
+  "theme_color": "#143b48",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
